@@ -1,0 +1,109 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para navegación */
+
+.nav-container {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.nav-container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container li {
+  margin: 0 10px;
+}
+
+/* Estilos para secciones */
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+}
+
+.section a {
+  display: block;
+  margin-top: 5px;
+}
+
+/* Estilos para accesibilidad */
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  ul li {
+    margin-bottom: 3px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .nav-container {
+    background-color: #333;
+  }
+}
